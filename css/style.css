@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #151515;
+}
+
+body > div {
+  margin: 120px auto;
+  text-align: center;
+}
+
+.tile {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wall {
+  background-color: blue;
+  border: 2px solid cornflowerblue;
+}
+
+.coin {
+  background-color: yellow;
+  border-radius: 50%;
+  transform: scale(.3);
+}
+
+.pacman {
+  background-image: url(../img/pacman.png);
+}
+
+.left {
+  background-image: url(../img/pacman-left.png);
+}
+
+.up {
+  background-image: url(../img/pacman-up.png);
+}
+
+.down {
+  background-image: url(../img/pacman-down.png);
+}
