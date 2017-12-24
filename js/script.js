@@ -64,7 +64,7 @@ function moveDown() {
   pacman.direction = 'down';
   if (gameData[pacman.y + 1][pacman.x] !== WALL) {
     gameData[pacman.y][pacman.x] = GROUND;
-    pacman.y = pacman.y + 1 ;
+    pacman.y = pacman.y + 1;
     gameData[pacman.y][pacman.x] = PACMAN;
   }
 }
@@ -82,7 +82,7 @@ function moveLeft() {
   pacman.direction = 'left';
   if (gameData[pacman.y][pacman.x - 1] !== WALL) {
     gameData[pacman.y][pacman.x] = GROUND;
-    pacman.x = pacman.x - 1 ;
+    pacman.x = pacman.x - 1;
     gameData[pacman.y][pacman.x] = PACMAN;
   }
 }
@@ -91,7 +91,7 @@ function moveRight() {
   pacman.direction = 'right';
   if (gameData[pacman.y][pacman.x + 1] !== WALL) {
     gameData[pacman.y][pacman.x] = GROUND;
-    pacman.x = pacman.x + 1 ;
+    pacman.x = pacman.x + 1;
     gameData[pacman.y][pacman.x] = PACMAN;
   }
 }
